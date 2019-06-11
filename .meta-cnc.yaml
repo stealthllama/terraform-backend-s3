@@ -1,0 +1,55 @@
+
+name: Terraform Remote State (S3)
+label: Terraform Remote State (S3)
+description: Builds a locking state backend for Terraform in AWS S3.
+type: terraform
+extends:
+
+labels:
+  collection: Automation CE Team
+
+variables:
+  - name: access_key
+    description: AWS Access Key
+    type_hint: password
+  - name: secret_key
+    description: AWS Secret Key
+    default: admin
+    type_hint: password
+  - name: region
+    description: AWS Region
+    default: choices
+    type_hint: dropdown
+    dd_list:
+      - key: ap-northeast-1
+        value: ap-northeast-1
+      - key: ap-northeast-2
+        value: ap-northeast-2
+      - key: ap-south-1
+        value: ap-south-1
+      - key: ap-southeast-1
+        value: ap-southeast-1
+      - key: ap-southeast-2
+        value: ap-southeast-2
+      - key: ca-central-1
+        value: ca-central-1
+      - key: eu-central-1
+        value: eu-central-1
+      - key: eu-north-1
+        value: eu-north-1
+      - key: eu-west-1
+        value: eu-west-1
+      - key: eu-west-2
+        value: eu-west-2
+      - key: eu-west-3
+        value: eu-west-3
+      - key: sa-east-1
+        value: sa-east-1
+      - key: us-east-1
+        value: us-east-1
+      - key: us-east-2
+        value: us-east-2
+      - key: us-west-1
+        value: us-west-1
+      - key: us-west-2
+        value: us-west-2
