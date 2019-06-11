@@ -1,7 +1,7 @@
 
 name: Terraform Remote State (S3)
 label: Terraform Remote State (S3)
-description: Builds a locking state backend for Terraform in AWS S3.
+description: Builds a locking remote state backend for Terraform in AWS S3.
 type: terraform
 extends:
 
