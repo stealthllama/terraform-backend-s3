@@ -14,7 +14,6 @@ variables:
     type_hint: password
   - name: aws_secret_access_key
     description: AWS Secret Key
-    default: admin
     type_hint: password
   - name: aws_region
     description: AWS Region
