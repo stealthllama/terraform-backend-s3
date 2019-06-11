@@ -9,14 +9,14 @@ labels:
   collection: Automation CE Team
 
 variables:
-  - name: access_key
+  - name: aws_access_key_id
     description: AWS Access Key
     type_hint: password
-  - name: secret_key
+  - name: aws_secret_access_key
     description: AWS Secret Key
     default: admin
     type_hint: password
-  - name: region
+  - name: aws_region
     description: AWS Region
     default: choices
     type_hint: dropdown
