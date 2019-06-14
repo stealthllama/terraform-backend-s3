@@ -1,2 +1,2 @@
-# TerraformStateS3Skillet
-A skillet for creating a Terraform remote state backend in AWS s3
+# S3BackendSkillet
+A skillet for creating a Terraform backend with state locking in AWS S3 and DynamoDB.
