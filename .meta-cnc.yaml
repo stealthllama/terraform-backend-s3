@@ -6,7 +6,7 @@ type: terraform
 extends:
 
 labels:
-  collection: Automation CE Team
+  collection: Terraform Backends
 
 variables:
   - name: aws_access_key_id
