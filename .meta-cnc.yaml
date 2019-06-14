@@ -1,6 +1,6 @@
 
-name: Terraform Backend (S3)
-label: Terraform Backend (S3)
+name: Terraform Backend (AWS)
+label: Terraform Backend (AWS)
 description: Builds a locking remote state backend for Terraform in AWS S3.
 type: terraform
 extends:
