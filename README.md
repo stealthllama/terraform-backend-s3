@@ -1,2 +1,2 @@
-# AWSBackendSkillet
-A skillet for creating a Terraform backend with state locking in AWS S3 and DynamoDB.
+# terraform-backend-s3
+A Terraform plan for creating a state locking backend in S3 and DynamoDB.
